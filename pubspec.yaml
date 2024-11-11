@@ -42,6 +42,11 @@ dependencies:
   cloud_firestore: ^5.4.5
 
 dev_dependencies:
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
   flutter_test:
     sdk: flutter
 
@@ -51,11 +56,6 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
-
-flutter_icons:
-  android: true
-  ios: true
-  image_path: "assets/icons/coins.svg" # Initialisation de l'icon de l'application
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
