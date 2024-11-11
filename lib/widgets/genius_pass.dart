@@ -93,7 +93,7 @@ class GeniusPass extends StatelessWidget {
                       ),
                       const SizedBox(height: 12),
                       ProgressBar(
-                        currentValue: geniusPassXp.toDouble(),
+                        currentValue: geniusPassXp,
                       ),
                       const SizedBox(height: 28),
                     ],

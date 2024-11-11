@@ -109,7 +109,7 @@ class ProfilePage extends StatelessWidget {
                                     '92j : 12h : 30 m',
                                     style: TextStyle(
                                       fontSize: 5.5.sp,
-                                      fontWeight: FontWeight.w700,
+                                      fontWeight: FontWeight.w600,
                                       color: Colors.white,
                                     ),
                                   ),
@@ -255,7 +255,7 @@ class ProfilePage extends StatelessWidget {
                                             userData['title'],
                                             style: TextStyle(
                                                 color: Colors.white,
-                                                fontSize: 10.sp,
+                                                fontSize: 9.sp,
                                                 fontWeight: FontWeight.w700),
                                           ),
                                         ),

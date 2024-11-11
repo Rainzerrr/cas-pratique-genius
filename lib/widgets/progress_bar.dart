@@ -1,10 +1,11 @@
+import 'package:caspratique/utils/export.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ProgressBar extends StatelessWidget {
-  final double currentValue;
-  final double minValue;
-  final double maxValue;
+  final int currentValue;
+  final int minValue;
+  final int maxValue;
 
   const ProgressBar({
     super.key,
@@ -76,31 +77,31 @@ class ProgressBar extends StatelessWidget {
               ),
             ),
             Positioned(
-              top: 6.5,
+              top: 7,
               left: 28,
               child: Text(
-                currentValue.round().toString(),
+                formatNumberWithSpaces(currentValue),
                 style: TextStyle(
                   color: currentValue < 100
                       ? Colors.black
-                      : const Color(0xFFECF1FF),
+                      : const Color.fromARGB(255, 217, 226, 255),
                   fontWeight: FontWeight.w900,
-                  fontSize: 12.5.sp,
+                  fontSize: 11.sp,
                   height: 1.0,
                 ),
               ),
             ),
             Positioned(
-              top: 6.5,
+              top: 7,
               right: 32,
               child: Text(
-                maxValue.round().toString(),
+                formatNumberWithSpaces(maxValue),
                 style: TextStyle(
                   color: currentValue > 1760
                       ? Colors.black
                       : const Color(0xFF7584FF),
                   fontWeight: FontWeight.w900,
-                  fontSize: 12.5.sp,
+                  fontSize: 11.sp,
                   height: 1.0,
                 ),
               ),

@@ -250,10 +250,10 @@ class HexagonsBackground extends StatelessWidget {
             ),
             // Hexagons en bas entre le total de coins et le genius pass
             Positioned(
-              bottom: 12,
-              right: 100,
+              bottom: 5,
+              right: 102,
               child: Transform.rotate(
-                angle: 110 * 3.14159 / 180,
+                angle: 120 * 3.14159 / 180,
                 child: SvgPicture.asset(
                   'assets/icons/hexagon.svg',
                   width: 92,
@@ -264,7 +264,7 @@ class HexagonsBackground extends StatelessWidget {
             ),
             Positioned(
               bottom: 54,
-              right: 84,
+              right: 94,
               child: Transform.rotate(
                 angle: 10 * 3.14159 / 180,
                 child: SvgPicture.asset(
