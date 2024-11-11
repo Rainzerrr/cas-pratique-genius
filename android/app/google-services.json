@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737719838488",
+    "project_id": "caspratique-6360f",
+    "storage_bucket": "caspratique-6360f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737719838488:android:36b97142d9d28b4d4be06d",
+        "android_client_info": {
+          "package_name": "com.example.caspratique"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5MQUOrydIBxIF8r61H-_T9opc3RoOlf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
