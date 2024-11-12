@@ -110,7 +110,7 @@ class GeniusPass extends StatelessWidget {
                   backgroundColor: const Color(0xFF7584FF),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 14.0,
-                    vertical: 1.0,
+                    vertical: 4.0,
                   ),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(16)),
@@ -126,19 +126,19 @@ class GeniusPass extends StatelessWidget {
                     Text(
                       'Voir plus',
                       style: TextStyle(
-                        fontSize: 8.5.sp,
-                        fontWeight: FontWeight.w600,
+                        fontSize: 9.sp,
+                        fontWeight: FontWeight.w500,
                         color: Colors.white,
                       ),
                     ),
-                    const SizedBox(width: 6),
+                    const SizedBox(width: 8),
                     Text(
                       '+',
                       style: TextStyle(
-                          fontSize: 15.sp,
+                          fontSize: 16.sp,
                           fontWeight: FontWeight.w300,
                           color: Colors.white,
-                          height: 0.0),
+                          height: 1.0),
                     ),
                   ],
                 ),

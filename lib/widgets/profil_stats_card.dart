@@ -63,7 +63,6 @@ class ProfileStatsCard extends StatelessWidget {
                       ),
                   ],
                 ),
-                const SizedBox(height: 2),
                 Text(
                   description,
                   textAlign: TextAlign.center,
@@ -75,6 +74,8 @@ class ProfileStatsCard extends StatelessWidget {
                   ),
                 ),
                 if (titleIcon != null) const SizedBox(height: 10),
+                if (titleIcon == null && iconUrl == null)
+                  const SizedBox(height: 6),
               ],
             ),
           )),

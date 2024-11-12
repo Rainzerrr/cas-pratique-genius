@@ -221,7 +221,7 @@ class ProfileInformations extends StatelessWidget {
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 9.sp,
-                                    fontWeight: FontWeight.w700),
+                                    fontWeight: FontWeight.w600),
                               ),
                             ),
                             const SizedBox(width: 6),
@@ -351,7 +351,7 @@ class ProfileInformations extends StatelessWidget {
                       ))
                 ],
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 16),
               GeniusPass(
                 geniusPassXp: userData['geniusPassXp'],
               ),
