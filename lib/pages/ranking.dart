@@ -13,23 +13,6 @@ class RankingPage extends StatefulWidget {
 
 class _RankingPageState extends State<RankingPage> {
   UserService userService = UserService();
-  Future<int?> getUserRank(String userId) async {
-    try {
-      // Récupérer tous les utilisateurs triés par score décroissant
-      final QuerySnapshot snapshot = await userService.getUsersRanking().first;
-
-      // Parcourir les utilisateurs pour trouver l'index correspondant au userId
-      for (int index = 0; index < snapshot.docs.length; index++) {
-        if (snapshot.docs[index].id == userId) {
-          return index + 1; // Retourne le rang en ajoutant 1 à l'index
-        }
-      }
-      // Retourner null si l'utilisateur n'est pas trouvé
-      return null;
-    } catch (e) {
-      return null;
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
