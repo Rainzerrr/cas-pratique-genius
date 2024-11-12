@@ -63,13 +63,13 @@ class RankingCard extends StatelessWidget {
                               : const Color(0xFF7584FF),
                           fontSize: 12.sp,
                           fontWeight: FontWeight.w800)),
-                  const SizedBox(width: 12),
+                  const SizedBox(width: 14),
                   Text('/',
                       style: TextStyle(
                           color: _isActiveProfile(username)
                               ? Colors.white
                               : const Color(0xFF7584FF),
-                          fontSize: 15.sp,
+                          fontSize: 13.sp,
                           fontWeight: FontWeight.w300,
                           height: 0.8)),
                   const SizedBox(width: 6),

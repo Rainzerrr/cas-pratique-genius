@@ -40,7 +40,7 @@ class ProfileStatsCard extends StatelessWidget {
                     width: 36,
                     height: 36,
                   ),
-                const SizedBox(height: 4),
+                const SizedBox(height: 2),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
